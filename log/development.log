@@ -8,3 +8,49 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 12ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 7898)
 
 
+Started GET "/" for ::1 at 2024-04-10 16:07:50 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CalculatorController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering calculator/show.html within layouts/application
+  Rendered calculator/show.html within layouts/application (Duration: 1.1ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 116.0ms | Allocations: 99450)
+Completed 200 OK in 124ms (Views: 119.5ms | ActiveRecord: 0.0ms | Allocations: 103547)
+
+
+Started GET "/" for ::1 at 2024-04-10 16:09:19 -0400
+Processing by CalculatorController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering calculator/show.html within layouts/application
+  Rendered calculator/show.html within layouts/application (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 19588)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 20502)
+
+
+Started GET "/" for ::1 at 2024-04-10 16:10:02 -0400
+Processing by CalculatorController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering calculator/show.html within layouts/application
+  Rendered calculator/show.html within layouts/application (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 16836)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 17749)
+
+
+Started GET "/" for ::1 at 2024-04-10 16:12:08 -0400
+Processing by CalculatorController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering calculator/show.html within layouts/application
+  Rendered calculator/show.html within layouts/application (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 16937)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 17848)
+
+
+Started GET "/" for ::1 at 2024-04-10 16:12:39 -0400
+Processing by CalculatorController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering calculator/show.html within layouts/application
+  Rendered calculator/show.html within layouts/application (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 16850)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 17764)
+
+
